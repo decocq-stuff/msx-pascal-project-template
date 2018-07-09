@@ -1,5 +1,5 @@
 @echo off
-rem setlocal ENABLEDELAYEDEXPANSION
+*** MAKE for MSX Turbo Pascal by S. de Cocq 2018
 call global_var.bat
 set compile=%Tools%\tp3.exe
 set disktool=%Tools%\dsktool_new.exe
@@ -54,7 +54,7 @@ if exist %source%\error.txt (
 	del %source%\TEMP.PAS
 	del %source%\TEMP.CHN
 
-rem	start "OpenMSX" "C:\Program Files\OpenMSX\OpenMSX.exe" -diska %build%\%diskname% -machine Philips_NMS_8255
+rem	call "C:\Program Files\OpenMSX\OpenMSX.exe" -diska %build%\%diskname% -machine Philips_NMS_8255
 
 	goto :eof
 )
