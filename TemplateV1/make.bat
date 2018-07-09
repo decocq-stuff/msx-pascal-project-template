@@ -1,5 +1,5 @@
 @echo off
-*** MAKE for MSX Turbo Pascal by S. de Cocq 2018
+REM *** MAKE for MSX Turbo Pascal by S. de Cocq 2018
 call global_var.bat
 set compile=%Tools%\tp3.exe
 set disktool=%Tools%\dsktool_new.exe
