@@ -15,7 +15,7 @@ rem **VDOS should be present on the system; define path\executable here:
 rem ** If not set or not found, automatic fallback to DOSBox
 rem ** VDOS is available at https://www.vdos.info/download.html
 
-    set vDos=c:\vdos\vdos.exe
+    set vDos=bin\vdos.exe
 
 rem **Path to your emulator. Only starts after compilation, if the executable exists:
 rem Example: set emulPath="C:\Program Files\OpenMSX\OpenMSX.exe"
