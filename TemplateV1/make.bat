@@ -83,7 +83,7 @@ rem Format output similar to C and JS compilers for handling by problemmatcher i
 		set /p ErrorMsg=
 	)
 	
-		echo %source%/%SourceFile%.PAS:%ErrLine%:%ErrColumn%:error:%ErrorMsg%-%ErrorCode%
+		echo %source%/%ErrFile%:%ErrLine%:%ErrColumn%:error:%ErrorMsg%-%ErrorCode%
 	
 
 :eof
