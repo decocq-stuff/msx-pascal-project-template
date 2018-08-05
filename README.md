@@ -12,7 +12,9 @@ When using MS Visual Code editor, open the folder; the tasks.json has a default 
 
 The project includes:
 vDOS - https://www.vdos.info
+
 dsktool by Ricardo Bittencourt, Updated 2010 by Tony Cruise 
+
 Turbo Pascal 3.3f MSX Computer Club Enschede 1993
 
 
